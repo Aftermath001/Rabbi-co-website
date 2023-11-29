@@ -1,12 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import '../App.css'
 const Navbar = () => {
   return (
     <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className='container-fluid'>
+                <div className='container-fluid' >
                     <NavLink className="navbar-brand" to="/">
-                         <b>Rabbi-Co</b>
+                         <b>Welcome</b>
                     </NavLink>
                 </div>
                 
@@ -20,10 +21,10 @@ const Navbar = () => {
                             <NavLink className='nav-link active' aria-current="page" to='/'>Home</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink className='nav-link active'  to='login'>Login</NavLink>
+                            <NavLink className='nav-link active'  to='about'>AboutUs</NavLink>
                         </li>
                         <li className='nav-item'>
-                            <NavLink className='nav-link active'  to='register'>SignUp</NavLink>
+                            <NavLink className='nav-link active'  to='contact'>Contact</NavLink>
                         </li>
                         
                         
